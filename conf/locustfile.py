@@ -15,12 +15,12 @@ class QuickstartUser(FastHttpUser):
         self.client.get("/list/video-games")
         self.client.get("/list/tablets")
         self.client.get("/list/watches")
-        # self.client.get("/product/6a0e03f653c25a7921107e60")
-        # self.client.get("/product/6a0e10b52a2b8afd79abee64")
-        # self.client.get("/product/6a0e10f42a2b8afd79abee65")
-        # self.client.get("/product/6a0e0ffb2a2b8afd79abee62")
-        # self.client.get("/product/6a0e0e7c2a2b8afd79abee5d")
-        # self.client.get("/product/6a0e0e3f2a2b8afd79abee5c")
+        self.client.get("/product/6a0e03f653c25a7921107e60")
+        self.client.get("/product/6a0e10b52a2b8afd79abee64")
+        self.client.get("/product/6a0e10f42a2b8afd79abee65")
+        self.client.get("/product/6a0e0ffb2a2b8afd79abee62")
+        self.client.get("/product/6a0e0e7c2a2b8afd79abee5d")
+        self.client.get("/product/6a0e0e3f2a2b8afd79abee5c")
 
         
 
